@@ -1,8 +1,7 @@
-; Make file for a particular platform.
-; Thanks to #aegir channel and adrinux for advice.
+; General Drupal 6 Make File
+; This is a very broad platform of preferred modules and dependencies.
 
-; Be nice...
-;options[contrib-destination] = sites/all/contrib
+; Thanks to #aegir channel and adrinux for advice.
 
 ; Contrib modules
 core = 6.x
