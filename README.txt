@@ -1,1 +1,1 @@
-Here are make files I'm using with Aegir in particular. It's a work in progress.
+Here are make files I'm working on. Some examples. Some I'm using.

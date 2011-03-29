@@ -1,9 +1,10 @@
 ; Make file to test drush make on this system.
 
-options[contrib-destination] = sites/all/contrib
+; http://drupal.org/node/1109002
+; subdir = contrib
 
 ; Contrib modules
-core = 6.x
+core = 7.x
 projects[] = drupal
 
 ; Contrib modules
