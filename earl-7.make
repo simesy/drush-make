@@ -8,7 +8,7 @@ core = 7.x
 projects[] = drupal
 
 ; Settings. See http://drupal.org/node/1109002
-; This shouldn't break anything if above patch is not applied.
+; This should not break anything if above patch is not applied.
 subdir = contrib
 
 ; Projects.
