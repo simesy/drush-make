@@ -3,14 +3,14 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.x"
+projects[drupal][type] = "core"
+projects[drupal][download][type] = "get"
+projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.17.1.tar.gz"
 
 subdir = contrib
 
   
 ; Modules
-; --------
-; These are in alphabetical order - please try to maintain this! SM
 
 projects[admin_menu][type] = "module"
 projects[admin_menu][subdir] = "contrib"
@@ -225,7 +225,6 @@ projects[tao][subdir] = "contrib"
 
 
 ; Libraries
-; ---------
 
 ; jQuery UI
 libraries[jquery_ui][download][type] = "get"
